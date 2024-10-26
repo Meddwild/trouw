@@ -11,12 +11,15 @@ h3 {
     color: #c4aa46 !important
 }
 
-.buttonmargin {
-    margin-bottom: 90px;
-}
-
 .worldMap {
     background-position: 0px 20px !important;
+}
+
+.savethedatebtn {
+    margin-bottom: 90px;
+    color: white !important;
+    background-color: #7da661 !important;
+
 }
 
 /* exceptions for savethedate */

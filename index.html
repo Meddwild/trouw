@@ -58,6 +58,21 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+    <script type="text/javascript" src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
+
+    <!-- AddEvent Settings -->
+    <script type="text/javascript">
+        window.addeventasync = function () {
+            addeventatc.settings({
+                appleical: { show: true, text: "Apple Calendar" },
+                google: { show: true, text: "Google <em>(online)</em>" },
+                office365: { show: false, text: "Office 365 <em>(online)</em>" },
+                outlook: { show: false, text: "Outlook" },
+                outlookcom: { show: true, text: "Outlook.com <em>(online)</em>" },
+                yahoo: { show: false, text: "Yahoo <em>(online)</em>" }
+            });
+        };
+    </script>
 </head>
 
 <body>
@@ -98,15 +113,23 @@
                                 <h3 class="goldColor">18 oktober 2025</h3>
                                 <div class="simply-countdown simply-countdown-one"></div>
                                 <!-- <p class="buttonmargin"><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
-                                <p class="buttonmargin"><a class="btn btn-default btn-sm" target="_blank"
-                                        href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=NjNyOWgxcjV1dHI1amY5MzZtamNjdWY3Mm4gZjg0NDA3YWZhZDNlMDI0MzA5NzNiNWMyYWUyMjA1MDk1NzZkZTA0MTkxZjU3OWE1NjdhMzhiMjkzYjdkZjYwOEBn&amp;tmsrc=f84407afad3e02430973b5c2ae220509576de04191f579a567a38b293b7df608%40group.calendar.google.com">
-                                        Save the date</a></p>
+                                <div title="Add to Calendar" style="color: white !important"
+                                    class="addeventatc savethedatebtn">
+                                    Save the date
+                                    <span class="start">10/18/2025 04:00 PM</span>
+                                    <span class="end">11/09/2024 10:00 AM</span>
+                                    <span class="timezone">Europe/Paris</span>
+                                    <span class="title">Trouw Delphine & Mitch</span>
+                                    <span class="all_day_event">true</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
+
+
 
 
 
