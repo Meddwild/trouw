@@ -1,0 +1,129 @@
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+
+const id = urlParams.get("id") || localStorage.getItem("pasportNumber");
+
+const greetingmsg = document.getElementById('greetingmsg');
+const normalContent = document.getElementById('fh5co-couple');
+const noPassnrDiv = document.getElementById('NoPasportNumberDiv');
+const passNotFoundErrormsg = document.getElementById('passNotFoundErrormsg');
+const inputName = document.getElementById('inputName');
+
+const checkPassnr = (number, first = false) => {
+    const info = categories[number]
+    if (info) {
+        // set the number in localStorage
+        localStorage.setItem("pasportNumber", number);
+        normalContent.style.display = "block"
+        noPassnrDiv.style.display = "none";
+        init(info)
+    } else {
+        normalContent.style.display = "none";
+        noPassnrDiv.style.display = "block";
+        !first && (passNotFoundErrormsg.style.display = "block")
+    }
+}
+
+const init = (info) => {
+
+    const firstMenu = document.getElementById('firstMenu');
+    const secondMenu = document.getElementById('secondMenu');
+
+    // the greeting
+    const greeting = document.getElementById('greeting')
+    greeting.innerHTML = "Hi " + info.name.join(" & ");
+    const greeting2 = document.getElementById('greeting')
+    greeting2.innerHTML = "Hi " + info.name.join(" & ");
+
+    if (info.hasCheckedIn) {
+        const completeForm = document.getElementById('completeForm');
+        completeForm.style.display = "none";
+        greetingmsg.style.display = "none";
+        const checkedInMsg = document.getElementById('checkedInMsg');
+        checkedInMsg.style.display = "block";
+    }
+
+    // hide second menu option for singles
+    if (info.name.length == 1) {
+        document.getElementById('secondMenu').style.display = "none";
+        document.getElementById('greetingmsg').innerHTML = "Ready to check in?"
+        document.getElementById('checkedInMsg2').innerHTML = "No worries, you're already checked in and the flight is scheduled on time ;)"
+        document.getElementById('passagierLabel').innerHTML = "Passenger"
+    }
+
+    // hide menu for reception guests
+    if (info.events.length == 1) {
+        firstMenu.style.display = "none";
+        secondMenu.style.display = "none";
+        document.getElementById('allergies').style.display = "none";
+    }
+
+    const dietLabel1 = document.getElementById('dietLabel1');
+    const dietLabel2 = document.getElementById('dietLabel2');
+    dietLabel1.innerHTML = "Dietary restrictions " + info.name[0]
+    dietLabel2.innerHTML = "Dietary restrictions " + info.name[1] || ""
+
+
+
+    // fill in the form automatically
+    // the passenger names
+    inputName.value = info.name.join(" & ");
+
+    // the attendance
+    const attendanceGroup = document.getElementById('attendance')
+    info.name.forEach((name, index) => {
+        const div = document.createElement("div");
+        div.setAttribute("class", "form-check")
+        const chkbx = document.createElement("input");
+        chkbx.setAttribute("class", "form-check-input");
+        chkbx.setAttribute("type", "checkbox");
+        chkbx.setAttribute("name", "attendance");
+        chkbx.setAttribute("value", name);
+        chkbx.setAttribute("checked", "true");
+        chkbx.setAttribute("id", "chkboxattendance" + name);
+        chkbx.addEventListener('change', (event) => {
+            if (index == 0) {
+                firstMenu.style.display = event.currentTarget.checked ? "block" : "none";
+            } else if (index == 1) {
+                secondMenu.style.display = event.currentTarget.checked ? "block" : "none";
+            }
+        })
+        chkbx.setAttribute("onChange", (cb) => {
+
+        })
+        const lbl = document.createElement("label");
+        lbl.setAttribute("class", "form-check-label extramarginLeft")
+        lbl.setAttribute("for", "chkboxattendance" + name)
+        lbl.innerHTML = " " + name + " "
+        div.append(chkbx, lbl);
+        attendanceGroup.append(div)
+    });
+
+    // add "Niemand"
+    const div = document.createElement("div");
+    div.setAttribute("class", "form-check")
+    const chkbx = document.createElement("input");
+    chkbx.setAttribute("class", "form-check-input");
+    chkbx.setAttribute("type", "checkbox");
+    chkbx.setAttribute("name", "attendance");
+    chkbx.setAttribute("value", "Niemand");
+    chkbx.setAttribute("id", "chkboxattendance" + "Niemand");
+    const lbl = document.createElement("label");
+    lbl.setAttribute("class", "form-check-label extramarginLeft")
+    lbl.setAttribute("for", "chkboxattendance" + "Niemand")
+    lbl.innerHTML = " " + "I cannot make it" + " "
+    div.append(chkbx, lbl);
+    attendanceGroup.append(div)
+
+    // the arrivals
+    const eventPicker = document.getElementById('inputArrival')
+    info.events.forEach(element => {
+        let opt = document.createElement("option");
+        opt.value = element;
+        opt.innerHTML = element;
+        eventPicker.append(opt);
+    });
+}
+
+
+checkPassnr(id, true);

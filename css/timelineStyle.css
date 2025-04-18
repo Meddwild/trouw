@@ -2,11 +2,6 @@
     margin-top: 100px;
 }
 
-h3 {
-    font-weight: bold;
-    font-size: 70px;
-}
-
 .goldColor {
     color: #c4aa46 !important
 }
@@ -42,10 +37,6 @@ h4 {
 .extramarginLeft {
     margin-Left: 6px;
     ;
-}
-
-.bold {
-    font-weight: bold;
 }
 
 .invalidFeedback {
