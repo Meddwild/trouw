@@ -10,7 +10,7 @@ const passNotFoundErrormsg = document.getElementById('passNotFoundErrormsg');
 const inputName = document.getElementById('inputName');
 
 const checkPassnr = (number, first = false) => {
-    if (!number.startsWith("DM")) {
+    if (number && !number.startsWith("DM")) {
         number = "DM" + number;
     }
     const info = categories[number]
