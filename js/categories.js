@@ -1,7 +1,7 @@
 const categories = {
     // FAMILIE
     DM302: {
-        name: ["Mama"],
+        name: ["Mama", "Henk"],
         events: ["ceremonie", "receptie", "diner", "dansfeest"],
         hasCheckedIn: false
     },
@@ -17,7 +17,7 @@ const categories = {
     },
     DM929: {
         name: ["Mama", "Papa"],
-        events: ["receptie"],
+        events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
     DM115: {
@@ -25,7 +25,7 @@ const categories = {
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
-    DM304: {
+    DM252: {
         name: ["Oma"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
@@ -93,7 +93,7 @@ const categories = {
         hasCheckedIn: false
     },
     DM039: {
-        name: ["Tori", "Kos"],
+        name: ["Tori"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
@@ -101,18 +101,16 @@ const categories = {
         name: ["Onerva"],
         events: ["ceremony", "reception", "dinner", "first dance"],
         hasCheckedIn: false,
-        isEnglish: true
     },
     DM785: {
         name: ["Sophie"],
         events: ["ceremony", "reception", "dinner", "first dance"],
         hasCheckedIn: false,
-        isEnglish: true
     },
 
     // Basket
     DM300: {
-        name: ["Wout", "Julie"],
+        name: ["Julie", "Wout"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
@@ -172,7 +170,7 @@ const categories = {
         hasCheckedIn: false
     },
     DM437: {
-        name: ["Bryan"],
+        name: ["Bryan", "Nimuë"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
@@ -185,13 +183,13 @@ const categories = {
     // Australiers
     DM296: {
         name: ["Rachel", "Jath"],
-        events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        events: ["ceremony", "reception", "dinner", "first dance"],
+        hasCheckedIn: false,
     },
     DM350: {
         name: ["Chelsea", "Matthew"],
-        events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        events: ["ceremony", "reception", "dinner", "first dance"],
+        hasCheckedIn: false,
     },
 
     // VRIENDEN OUDERS
@@ -301,7 +299,7 @@ const categories = {
     },
     DM020: {
         name: ["Echo"],
-        events: ["receptie"],
+        events: ["reception"],
         hasCheckedIn: false
     },
     DM911: {
@@ -316,17 +314,17 @@ const categories = {
     },
     DM210: {
         name: ["Stijn"],
-        events: ["receptie"],
+        events: ["reception"],
         hasCheckedIn: false
     },
     DM334: {
         name: ["Max"],
-        events: ["receptie"],
+        events: ["reception"],
         hasCheckedIn: false
     },
     DM198: {
         name: ["Francesco"],
-        events: ["receptie"],
+        events: ["reception"],
         hasCheckedIn: false
     },
 }
