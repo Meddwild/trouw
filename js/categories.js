@@ -1,4 +1,10 @@
 const categories = {
+    // important people
+    DM001: {
+        name: ["Delphine", "Mitch"],
+        events: ["ceremonie", "receptie", "diner", "dansfeest"],
+        hasCheckedIn: false
+    },
     // FAMILIE
     DM302: {
         name: ["Mama", "Henk"],
@@ -21,7 +27,7 @@ const categories = {
         hasCheckedIn: false
     },
     DM115: {
-        name: ["Soeure", "Rémy", "Henri", "Aline"],
+        name: ["Soeure", "Nick"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
