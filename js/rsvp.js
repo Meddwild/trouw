@@ -1,3 +1,8 @@
+/**
+ * If you can read this, you are not supposed to be here.
+ * Don't read this file and certainly don't change judge the code ;)
+ */
+
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
@@ -21,8 +26,8 @@ const checkPassnr = (number, first = false) => {
         noPassnrDiv.style.display = "none";
         init(info)
     } else {
-        normalContent.style.display = "none";
-        noPassnrDiv.style.display = "block";
+        normalContent && (normalContent.style.display = "none");
+        noPassnrDiv && (noPassnrDiv.style.display = "block");
         !first && (passNotFoundErrormsg.style.display = "block")
     }
 }

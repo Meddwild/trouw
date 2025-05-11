@@ -1,3 +1,7 @@
+/**
+ * If you can read this, you are not supposed to be here.
+ * Don't read this file and certainly don't change judge the code ;)
+ */
 const categories = {
     // important people
     DM001: {
