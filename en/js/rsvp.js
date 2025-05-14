@@ -54,7 +54,7 @@ const init = (info) => {
     if (info.name.length == 1) {
         document.getElementById('secondMenu').style.display = "none";
         document.getElementById('greetingmsg').innerHTML = "Ready to check in?"
-        document.getElementById('checkedInMsg2').innerHTML = "No worries, you're already checked in and the flight is scheduled on time ;)"
+        document.getElementById('checkedInMsg2').innerHTML = "No worries, you're already checked in and the flight is scheduled on time &#128521;"
         document.getElementById('passagierLabel').innerHTML = "Passenger"
     }
 

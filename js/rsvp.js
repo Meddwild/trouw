@@ -55,7 +55,7 @@ const init = (info) => {
     if (info.name.length == 1) {
         document.getElementById('secondMenu').style.display = "none";
         document.getElementById('greetingmsg').innerHTML = "Ben je klaar om in te checken?"
-        document.getElementById('checkedInMsg2').innerHTML = "Geen zorgen, jullie zijn al ingecheckt en deze vlucht heeft geen vertraging ;)"
+        document.getElementById('checkedInMsg2').innerHTML = "Geen zorgen, je bent al ingecheckt en deze vlucht heeft geen vertraging &#128521;"
         document.getElementById('passagierLabel').innerHTML = "Passagier"
     }
 

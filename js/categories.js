@@ -38,7 +38,7 @@ const categories = {
     DM252: {
         name: ["Oma"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM838: {
         name: ["Mamie", "Etienne"],
@@ -174,6 +174,13 @@ const categories = {
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
+    DM276: {
+        name: ["Immanuel"],
+        events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
+        hasCheckedIn: false
+    },
+
+    // vrienden Mitch
     DM963: {
         name: ["Eloïse", "Jérémie"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
@@ -262,11 +269,6 @@ const categories = {
         events: ["receptie"],
         hasCheckedIn: false
     },
-    // DM776: {
-    //     name: ["Luc"], // ouders bram
-    //     events: ["receptie"],
-    //     hasCheckedIn: false
-    // },
     DM581: {
         name: ["Kathy", "Matthieu"],
         events: ["receptie"],
