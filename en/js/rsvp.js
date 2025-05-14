@@ -131,6 +131,6 @@ const init = (info) => {
         eventPicker.append(opt);
     });
 }
-
-
-checkPassnr(id, true);
+setTimeout(() => {
+    checkPassnr(id, true);
+});

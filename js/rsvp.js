@@ -133,5 +133,6 @@ const init = (info) => {
     });
 }
 
-
-checkPassnr(id, true);
+setTimeout(() => {
+    checkPassnr(id, true);
+});

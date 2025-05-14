@@ -180,7 +180,7 @@ const categories = {
         hasCheckedIn: false
     },
     DM437: {
-        name: ["Bryan", "Nimuë"],
+        name: ["Nimuë", "Bryan"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
@@ -262,11 +262,11 @@ const categories = {
         events: ["receptie"],
         hasCheckedIn: false
     },
-    DM776: {
-        name: ["Luc"], // ouders bram
-        events: ["receptie"],
-        hasCheckedIn: false
-    },
+    // DM776: {
+    //     name: ["Luc"], // ouders bram
+    //     events: ["receptie"],
+    //     hasCheckedIn: false
+    // },
     DM581: {
         name: ["Kathy", "Matthieu"],
         events: ["receptie"],
