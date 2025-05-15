@@ -28,6 +28,9 @@ const init = (info) => {
 }
 
 const checkPassnr = (number, first = false) => {
+    if (number && !number.startsWith("DM")) {
+        number = "DM" + number;
+    }
     const info = categories[number]
     if (info) {
         // set the number in localStorage
