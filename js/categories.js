@@ -265,7 +265,7 @@ const categories = {
         hasCheckedIn: false
     },
     DM480: {
-        name: ["Ouders Arne"],
+        name: ["Geert"],
         events: ["receptie"],
         hasCheckedIn: false
     },
@@ -305,7 +305,12 @@ const categories = {
         hasCheckedIn: false
     },
     DM304: {
-        name: ["Valérie"],
+        name: ["Valérie L."],
+        events: ["receptie"],
+        hasCheckedIn: false
+    },
+    DM231: {
+        name: ["Valérie J."],
         events: ["receptie"],
         hasCheckedIn: false
     },
@@ -336,6 +341,32 @@ const categories = {
     },
     DM198: {
         name: ["Francesco"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    // collega's Mitch
+    DM530: {
+        name: ["Maarten"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM832: {
+        name: ["Diederik"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM414: {
+        name: ["Jens"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM280: {
+        name: ["Bram"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM225: {
+        name: ["Ignace"],
         events: ["reception"],
         hasCheckedIn: false
     },
