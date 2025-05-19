@@ -344,6 +344,21 @@ const categories = {
         events: ["reception"],
         hasCheckedIn: false
     },
+    DM851: {
+        name: ["Ngoni"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM180: {
+        name: ["Igor"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM674: {
+        name: ["Andrea"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
     // collega's Mitch
     DM530: {
         name: ["Maarten"],
