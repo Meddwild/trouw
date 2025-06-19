@@ -385,4 +385,25 @@ const categories = {
         events: ["reception"],
         hasCheckedIn: false
     },
+    // grote tuin
+    DM688: {
+        name: ["Jonathan"], // de schrijver
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM864: {
+        name: ["Arne"], // de schrijver
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM548: {
+        name: ["Sarah"], // de schrijver
+        events: ["reception"],
+        hasCheckedIn: false
+    },
+    DM792: {
+        name: ["Lucas"],
+        events: ["reception"],
+        hasCheckedIn: false
+    },
 }
