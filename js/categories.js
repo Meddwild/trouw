@@ -18,7 +18,7 @@ const categories = {
     DM075: {
         name: ["Papa", "Juan", "Yilin"],
         events: ["ceremonie", "receptie", "diner", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM183: {
         name: ["Bo", "Broerie"],
@@ -80,12 +80,12 @@ const categories = {
     DM826: {
         name: ["Emma"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM384: {
         name: ["Sofie", "Thomas"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM460: {
         name: ["Tine"],
@@ -105,7 +105,7 @@ const categories = {
     DM039: {
         name: ["Tori"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM388: {
         name: ["Onerva"],
@@ -122,12 +122,12 @@ const categories = {
     DM300: {
         name: ["Julie", "Wout"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM099: {
         name: ["Kathleen", "Iben"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM941: {
         name: ["Eva", "Louis"],
@@ -137,7 +137,7 @@ const categories = {
     DM860: {
         name: ["Delphine", "Jonathan"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM394: {
         name: ["Iris", "Michiel"],
@@ -152,7 +152,7 @@ const categories = {
     DM165: {
         name: ["Severien", "Alex"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM116: {
         name: ["Maroushka", "Emiel"],
@@ -213,12 +213,12 @@ const categories = {
     DM352: {
         name: ["Annick", "Danny"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM442: {
         name: ["Linda", "Serge"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM327: {
         name: ["Katrien", "Chris"],
