@@ -95,7 +95,7 @@ const categories = {
     DM069: {
         name: ["Anne-Laure"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM398: {
         name: ["Laura", "Kevin"],
