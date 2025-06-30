@@ -43,7 +43,7 @@ const categories = {
     DM838: {
         name: ["Mamie", "Etienne"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM038: {
         name: ["Tante Saskia", "Nonkel Olivier"],
@@ -58,7 +58,7 @@ const categories = {
     DM663: {
         name: ["Nonkel Eddy"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM642: {
         name: ["Frederik"],
@@ -75,7 +75,7 @@ const categories = {
     DM958: {
         name: ["Line", "Mattijs"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM826: {
         name: ["Emma"],
