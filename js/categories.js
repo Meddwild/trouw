@@ -90,7 +90,7 @@ const categories = {
     DM460: {
         name: ["Tine"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM069: {
         name: ["Anne-Laure"],
@@ -399,7 +399,7 @@ const categories = {
     DM548: {
         name: ["Sarah"], // de schrijver
         events: ["reception"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM792: {
         name: ["Lucas"],
