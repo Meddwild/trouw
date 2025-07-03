@@ -68,7 +68,7 @@ const categories = {
     DM882: {
         name: ["Maaike"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
 
     // VRIENDEN Delphine
@@ -223,7 +223,7 @@ const categories = {
     DM327: {
         name: ["Katrien", "Chris"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM536: {
         name: ["Sabine", "Tom"],
