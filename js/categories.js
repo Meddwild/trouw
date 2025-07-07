@@ -23,7 +23,7 @@ const categories = {
     DM183: {
         name: ["Bo", "Broerie"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM929: {
         name: ["Mama", "Papa"],
@@ -257,7 +257,7 @@ const categories = {
     DM111: {
         name: ["Martine", "Erik"],
         events: ["receptie"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM181: {
         name: ["Dina", "Rudy"],
