@@ -162,7 +162,7 @@ const categories = {
     DM644: {
         name: ["Joachim"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM691: {
         name: ["Arne"],
