@@ -53,7 +53,7 @@ const categories = {
     DM260: {
         name: ["Margaux", "Maxinne"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM663: {
         name: ["Nonkel Eddy"],
