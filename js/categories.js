@@ -7,13 +7,13 @@ const categories = {
     DM001: {
         name: ["Delphine", "Mitch"],
         events: ["ceremonie", "receptie", "diner", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     // FAMILIE
     DM302: {
         name: ["Mama", "Henk"],
         events: ["ceremonie", "receptie", "diner", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM075: {
         name: ["Papa", "Juan", "Yilin"],
@@ -33,7 +33,7 @@ const categories = {
     DM115: {
         name: ["Soeure", "Nick"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM252: {
         name: ["Oma"],
@@ -100,7 +100,7 @@ const categories = {
     DM398: {
         name: ["Laura", "Kevin"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM039: {
         name: ["Tori"],
