@@ -48,7 +48,7 @@ const categories = {
     DM038: {
         name: ["Tante Saskia", "Nonkel Olivier"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM260: {
         name: ["Margaux", "Maxinne"],
@@ -157,7 +157,7 @@ const categories = {
     DM116: {
         name: ["Maroushka", "Emiel"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM644: {
         name: ["Joachim"],
@@ -167,7 +167,7 @@ const categories = {
     DM691: {
         name: ["Arne"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM549: {
         name: ["Gaëlle", "Jordy"],
@@ -194,7 +194,7 @@ const categories = {
     DM014: {
         name: ["Charlotte", "Thomas"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
 
     // Australiers
@@ -228,7 +228,7 @@ const categories = {
     DM536: {
         name: ["Sabine", "Tom"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM899: {
         name: ["Nancy", "Raph"],
@@ -389,12 +389,12 @@ const categories = {
     DM688: {
         name: ["Jonathan"], // de schrijver
         events: ["reception"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM864: {
         name: ["Arne"], // de schrijver
         events: ["reception"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM548: {
         name: ["Sarah"], // de schrijver
