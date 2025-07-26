@@ -7,7 +7,7 @@ const categories = {
     DM001: {
         name: ["Delphine", "Mitch"],
         events: ["ceremonie", "receptie", "diner", "dansfeest"],
-        hasCheckedIn: true
+        hasCheckedIn: false
     },
     // FAMILIE
     DM302: {
