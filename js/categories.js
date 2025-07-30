@@ -142,7 +142,7 @@ const categories = {
     DM394: {
         name: ["Iris", "Michiel"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM928: {
         name: ["Bram"],
