@@ -7,7 +7,7 @@ const categories = {
     DM001: {
         name: ["Delphine", "Mitch"],
         events: ["ceremonie", "receptie", "diner", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     // FAMILIE
     DM302: {
@@ -132,7 +132,7 @@ const categories = {
     DM941: {
         name: ["Eva", "Louis"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM860: {
         name: ["Delphine", "Jonathan"],
@@ -233,7 +233,7 @@ const categories = {
     DM899: {
         name: ["Nancy", "Raph"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
 
     // EXTRA
@@ -242,7 +242,7 @@ const categories = {
     DM086: {
         name: ["Marie-Anne", "Geert"],
         events: ["receptie"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM703: {
         name: ["Hilde", "Philip"],
@@ -312,7 +312,7 @@ const categories = {
     DM231: {
         name: ["Valérie J."],
         events: ["receptie"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM020: {
         name: ["Echo"],
@@ -332,7 +332,7 @@ const categories = {
     DM210: {
         name: ["Stijn"],
         events: ["reception"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM334: {
         name: ["Max"],
@@ -356,32 +356,6 @@ const categories = {
     },
     DM674: {
         name: ["Andrea"],
-        events: ["reception"],
-        hasCheckedIn: false
-    },
-    // collega's Mitch
-    DM530: {
-        name: ["Maarten"],
-        events: ["reception"],
-        hasCheckedIn: false
-    },
-    DM832: {
-        name: ["Diederik"],
-        events: ["reception"],
-        hasCheckedIn: false
-    },
-    DM414: {
-        name: ["Jens"],
-        events: ["reception"],
-        hasCheckedIn: false
-    },
-    DM280: {
-        name: ["Bram"],
-        events: ["reception"],
-        hasCheckedIn: false
-    },
-    DM225: {
-        name: ["Ignace"],
         events: ["reception"],
         hasCheckedIn: false
     },
