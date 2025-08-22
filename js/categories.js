@@ -63,7 +63,7 @@ const categories = {
     DM642: {
         name: ["Frederik"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM882: {
         name: ["Maaike"],
@@ -357,7 +357,7 @@ const categories = {
     DM674: {
         name: ["Andrea"],
         events: ["reception"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     // grote tuin
     DM688: {
