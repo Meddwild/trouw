@@ -110,7 +110,7 @@ const categories = {
     DM388: {
         name: ["Onerva"],
         events: ["ceremony", "reception", "dinner", "first dance"],
-        hasCheckedIn: false,
+        hasCheckedIn: true,
     },
     DM785: {
         name: ["Sophie"],
@@ -147,7 +147,7 @@ const categories = {
     DM928: {
         name: ["Bram"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM165: {
         name: ["Severien", "Alex"],
@@ -175,7 +175,7 @@ const categories = {
         hasCheckedIn: false
     },
     DM276: {
-        name: ["Immanuel"],
+        name: ["Lies", "Immanuel"],
         events: ["ceremonie", "receptie", "avondeten", "dansfeest"],
         hasCheckedIn: false
     },
@@ -337,7 +337,7 @@ const categories = {
     DM334: {
         name: ["Max"],
         events: ["reception"],
-        hasCheckedIn: false
+        hasCheckedIn: true
     },
     DM198: {
         name: ["Francesco"],
